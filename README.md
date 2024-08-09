@@ -7,7 +7,9 @@
 3. From the root directory (the directory where pyproject.toml is located), run `poetry install`.
 4. Run `poetry shell` to enter a shell where CLI commands can be run from.
 
-## Airdrop Suilend Capsules
+The CLI tool assumes you have Sui client installed. [Here](https://docs.sui.io/guides/developer/getting-started/sui-install) are instructions to install Sui if you don't have it installed. The CLI tool also uses the Sui client's currently active address.
+
+## Airdrop Suilend Capsule
 
 First, specify addresses in "addresses.json". This should be a JSON array of addresses like so:
 
